@@ -1,16 +1,14 @@
 @import "nullstyle.scss";
 
 .container{
-	padding: 30px 70px;
-	background-color: rgba(10, 67, 5, 0.809);
+	padding: 30px 0px;
+	background-color: rgba(96, 8, 100, 0.946);
 }
 .content__item{
-	background-image: url(/grad8844.github.io/img/depositphotos_72849269-stock-illustration-vintage-floral-motif-ethnic-seamless.jpg);
-	/*background-color: rgb(20, 174, 107);*/
-	padding: 30px;
-	max-width:500px;
 	margin: 0px auto;
-	border: 3px solid rgb(186, 177, 53);
+	background-image: url(/grad8844.github.io/img/depositphotos_72849269-stock-illustration-vintage-floral-motif-ethnic-seamless.jpg);
+	padding: 30px 0px;
+	border: 3px solid rgb(218, 209, 79);
 }
 .form-form{
 	text-align: center;
@@ -20,9 +18,9 @@
 }
 .form-input{
 	padding: 5px;
-	border: 2px solid;
+	border: 2px solid rgb(39, 80, 242);
 	font-size: 15px;
-	background: gray;
+	background: rgb(14, 67, 79);
 	&:focus{
 		background-color: rgba(12, 245, 20, 0.364);
 	}
@@ -33,15 +31,15 @@
 .btn{
 	padding: 5px 30px;
 	font-size: 15px;
-	background-color: green;
+	background-color: rgba(12, 245, 20, 0.364);
 	color: white;
-	border: 2px solid black;
+	border: 2px solid rgb(218, 209, 79);
 
 	&:hover{
-		background-color: brown;
+		background: rgb(14, 67, 79);
 	}
 	&:active{
-		background-color: chartreuse;
+		background: rgb(6, 42, 49);
 	}
 }
 input::placeholder{
